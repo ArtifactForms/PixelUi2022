@@ -25,5 +25,7 @@ public interface Graphics2 {
 	void fillArea(Area area);
 	
 	void textSize(int textSize);
+	
+	void setFont(String name, int size);
 
 }
