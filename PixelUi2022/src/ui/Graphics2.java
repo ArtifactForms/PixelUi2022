@@ -23,5 +23,7 @@ public interface Graphics2 {
 	void drawImage(BufferedImage image, int x, int y);
 	
 	void fillArea(Area area);
+	
+	void textSize(int textSize);
 
 }
