@@ -4,7 +4,6 @@ import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
 
-import a.game.Graphics2;
 import ui.border.Border;
 import ui.border.Insets;
 import ui.layout.Anchor;
