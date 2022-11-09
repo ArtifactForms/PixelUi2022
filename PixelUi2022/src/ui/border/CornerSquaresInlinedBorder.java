@@ -67,10 +67,10 @@ public class CornerSquaresInlinedBorder extends AbstractBorder {
 
 	private void renderArea() {
 		g2d.setColor(fill);
-		g2d.fillRect(sizePlusTwo, 1, width - sizePlusTwo - sizePlusTwo, sizePlusOne); // top
-		g2d.fillRect(1, sizePlusTwo, sizePlusOne, height - sizePlusTwo - sizePlusTwo); // left
-		g2d.fillRect(sizePlusTwo, height - sizePlusTwo, width - sizePlusTwo - sizePlusTwo, sizePlusOne); // bottom
-		g2d.fillRect(width - sizePlusTwo, sizePlusTwo, sizePlusOne, height - sizePlusTwo - sizePlusTwo); // right
+		g2d.fillRect(x + sizePlusTwo, y + 1, width - sizePlusTwo - sizePlusTwo, sizePlusOne); // top
+		g2d.fillRect(x + 1, y + sizePlusTwo, sizePlusOne, height - sizePlusTwo - sizePlusTwo); // left
+		g2d.fillRect(x + sizePlusTwo, y + height - sizePlusTwo, width - sizePlusTwo - sizePlusTwo, sizePlusOne); // bottom
+		g2d.fillRect(x + width - sizePlusTwo, y + sizePlusTwo, sizePlusOne, height - sizePlusTwo - sizePlusTwo); // right
 	} 
 
 	private void renderPolygon() {
